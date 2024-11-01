@@ -23,7 +23,8 @@ app.use(express.json());
 app.use(cookieParser());
 
 const corsOptions = {
-    origin: "http://localhost:3000",
+    // origin: "http://localhost:3000",
+    origin: "https://twitter-frontend-52h9.onrender.com",
     credentials: true
 };
 
